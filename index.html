@@ -40,27 +40,30 @@
     <section id="home">
         <div class="hero" style="background-image: url(./images/hero-bg.jpg); background-position: center; background-size: cover;">
             <div class="intro">
-                <p>i'm Dennis <span>kipkoech </span> i'm a Front End Developer & Designer based in Eldoret Kenya</p>
-                <button class="hire-btn btn">Hire me</button>
+                <p>I'm Dennis <span>kipkoech </span> i'm a Front End Developer & Designer based in Eldoret Kenya</p>
+                <a href="#contact"><button class="hire-btn btn">Hire me</button></a>
+
+                <button class="hire-btn btn">Download Cv</button>
             </div>
         </div>
     </section>
     <!---------END HERO SECTION----------->
     
     <section id="about">
-        <div class="about-me">
+        <div id="about-me" class="about-me">
             <div class="profile-img">
-                <img src="images/prf.png" alt="">
+                <img src="images/Profileimage.jpg" alt="">
             </div>
             <div class="about">
                 <h3>About <span> Me</span></h3>
-                <p>
+                <p class="Hero-text">
                     My name is Dennis kipkoech i've been to coding for two years. 
                     I can create Atractive websites that my clients would be proud of.
                     ive worked with many clients to help them create powerfull websites
                     for their companies. My goal is to eventualy design websites that 
                     impresses the clients.
                 </p>
+                <a href="#contact"><button class="hire-btn btn">Hire me</button></a>
             </div>
         </div>
     </section>
@@ -91,23 +94,25 @@
     </section>
     <section id="contact">
         <div class="contact-div">
-            <h3 id="contact-h3">Contact <span> Me</span></h3>
+            <h3 id="contact-h3">Contact <span>Me</span></h3>
             <div class="contact">
                 <div class="follow-us">
                     <h4>follow us</h4>
-                    <a href="https://www.facebook.com/dennis.kipkoech.52206" target="_blank"><i class="uil uil-facebook-f"></i><p> Dennis kipkoech</p></a>
-                    <a href="https://twitter.com/DennisKip89" target="_blank"><i class="uil uil-twitter-alt"></i> DennisKip89</a>
-                    <a href="https://www.instagram.com/dennis.kipkoech.52206/" target="_blank"><i class="uil uil-instagram"></i>denniskipkoech52206</a>
-                    <a href="https://www.linkedin.com/in/dennis-kipkoech-9b3549272/" target="_blank"><i class="uil uil-linkedin-alt"></i>denniskipkoech9b354</a>
+                    <a href=""><i class="uil uil-facebook-f"></i><p> Dennis kipkoech</p></a>
+                    <a href=""><i class="uil uil-twitter-alt"></i> DennisKip89</a>
+                    <a href=""><i class="uil uil-instagram"></i>denniskipkoech52206</a>
+                    <a href=""><i class="uil uil-linkedin-alt"></i>denniskipkoech9b354</a>
                 </div>
                 
                 <div class="form-div">
-                        <form action="">
+                        <form action="https://formsubmit.co/kipkoechd09@email.com" method="POST">
                             <input type="text" id="f-name" placeholder="First Name" required>
                             <input type="text" id="l-name" placeholder="Last Name" required>
                             <input type="email" placeholder="Email Address" required>
+                            <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
                             <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
-                            <a href=""><button>Send Message</button></a>
+                            <input type="hidden" name="_subject" value="New Message from portforlio!">
+                            <a><button type="submit">Send Message</button></a>
                         </form>
                 </div>
                 
